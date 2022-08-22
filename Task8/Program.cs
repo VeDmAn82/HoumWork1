@@ -4,8 +4,9 @@ Console.Write("Введите число: ");
 int numA = Convert.ToInt32(Console.ReadLine());
 
 for(int i = 1; i <= numA; i++)
-
-if(i % 2 == 0)
+{
+    if(i % 2 == 0)
 {
     Console.WriteLine(i);
+}
 }
